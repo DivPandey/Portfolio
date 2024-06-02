@@ -5,8 +5,9 @@ import Tilt from "react-parallax-tilt";
 import Fade from "react-reveal/Fade";
 import { AiFillGithub,} from "react-icons/ai";
 import { FaLinkedinIn, FaGoogle } from "react-icons/fa";
-
-
+import Particle from "../../Particle";
+import myselfContainer from "src\modules\myself\myselfContainer.js";
+import Contactus from "../../modules/contactUs/contactus";
 
 export default function Home() {
     return (
@@ -86,6 +87,8 @@ export default function Home() {
             </Row>
           </Container>
         </Container>
+        <myselfContainer />
+        <Contactus />
       </section>
     );
   }

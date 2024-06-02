@@ -10,6 +10,7 @@ function Typing (){
                     "Software Engineer",
                     "Frontend Developer",
                     "Backend Developer",
+                    "AI ML Enthusiast",
                 ],
                 autoStart: true,
                 loop: true,
